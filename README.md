@@ -1,5 +1,7 @@
 # PlayStation 4 Sound theme for Kodi
 
+## Update: **Seems like [KnuxBoy04](https://github.com/KnuxBoy04) on GitHub is trying to revive the PS4 theme.** Please see: https://github.com/KnuxBoy04/skin.orbis
+
 Original Thread can be found here: https://forum.kodi.tv/showthread.php?tid=210625
 
 This theme was originally made by Toyota12303. Subsequently, the download links for the theme and sound theme hosted by Toyota12303 (hosted on Google Drive) was invalid.
