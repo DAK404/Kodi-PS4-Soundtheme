@@ -1,0 +1,119 @@
+﻿<!-- This file contains the mapping of actions to sounds                    -->
+
+<!-- The <actions> section contains global mapping                          -->
+
+<!-- To map a action to a sound, add a block like this to <actions>:        -->
+<!--    <action>                                                            -->
+<!--      <name>left</name>                                                 -->
+<!--      <file>cursor.wav</file>                                           -->
+<!--    </action>                                                           -->
+<!-- Where <name> specifies the action to map a sound to and <file> the wav -->
+<!-- file to play when the action occurs.                                   -->
+
+<!-- Valid entries for <name> can be found at                               -->
+<!-- http://manual.xboxmediacenter.de/wakka.php?wakka=KeyMappingXML&v=6gu   -->
+
+
+<!-- Also window specific sound can be played                               -->
+
+<!-- To map a sound to a window, add a block like this to <windows>:        -->
+<!--    <window>                                                            -->
+<!--      <name>infodialog</name>                                           -->
+<!--      <activate>notify.wav</activate>                                   -->
+<!--      <deactivate>out.wav</deactivate>                                  -->
+<!--    </window>                                                           -->
+<!-- Where <name> specifies the window to map a sound to                    -->
+<!-- <activate> and <deactivate> are the events a sound can be mapped to    -->
+<!-- by setting the file to play.                                           -->
+
+<!-- Valid entries for <name> can be found at                               -->
+<!-- http://manual.xboxmediacenter.de/w     akka.php?wakka=WindowList&v=13k6     -->
+
+<!-- Note: Only wav files are supported                                     -->
+
+<sounds>
+    <actions>
+        <action>
+            <name>Left</name>
+            <file>Move.wav</file>
+        </action>
+        <action>
+            <name>Right</name>
+            <file>Move.wav</file>
+        </action>
+            <action>
+            <name>Up</name>
+        <file>Move.wav</file>
+            </action>
+            <action>
+        <name>Down</name>
+            <file>Move.wav</file>
+        </action>
+        <action>
+            <name>Select</name>
+            <file>Select.wav</file>
+        </action>
+        <action>
+            <name>ParentDir</name>
+            <file>Back.wav</file>
+        </action>
+        <action>
+            <name>PreviousMenu</name>
+            <file>Back.wav</file>
+        </action>
+        <action>
+            <name>Screenshot</name>
+            <file>Screenshot.wav</file>
+        </action>
+    </actions>
+
+    <windows>
+        <window>
+            <name>10107</name>
+            <activate>Notification.wav</activate>
+            <deactivate></deactivate>
+        </window>
+        <window>
+            <name>10109</name>
+            <activate>Dialog.wav</activate>
+            <deactivate>DialogClose.wav</deactivate>
+        </window>
+        <window>
+            <name>10111</name>
+            <activate>Dialog.wav</activate>
+            <deactivate>DialogClose.wav</deactivate>
+        </window>
+        <window>
+            <name>10100</name>
+            <activate>Error.wav</activate>
+            <deactivate>DialogClose.wav</deactivate>
+        </window>
+        <window>
+            <name>12002</name>
+            <activate>Error.wav</activate>
+            <deactivate>DialogClose.wav</deactivate>
+        </window>
+        <window>
+            <name>10106</name>
+            <activate>Dialog.wav</activate>
+            <deactivate>Close.wav</deactivate>
+        </window>
+        <window>
+        <name>virtualkeyboard</name>
+            <activate>Dialog.wav</activate>
+            <deactivate>Close.wav</deactivate>
+        </window>
+        <window>
+            <name>7091</name>
+            <activate>Shutdown.wav</activate>
+        </window>
+        <window>
+            <name>10029</name>
+            <activate>Login.wav</activate>
+        </window>
+        <window>
+            <name>12999</name>
+            <activate>Startup.wav</activate>
+        </window>
+    </windows>
+</sounds>

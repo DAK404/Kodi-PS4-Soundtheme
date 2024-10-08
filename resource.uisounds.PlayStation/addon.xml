@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.PlayStation" version="1.0.0" name="PlayStation sounds" provider-name="Toyota12303">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">PlayStation Sounds</summary>
+    <description lang="en">PlayStation Sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
