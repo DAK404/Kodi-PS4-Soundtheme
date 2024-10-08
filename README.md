@@ -12,7 +12,9 @@ I have corrected issues in the XML regarding the filenames and fixed the indenta
 
 ## Installation Instructions
 
-* Download this repository
+* Download this repository and zip the `resource.uisounds.PlayStation` directory
+  * The directory must be zipped with a .zip extension.
+  * Use `Store` compression
 * Open Kodi and go to `Settings` -> `File Manager`
 * Select `Install from ZIP file`
 * Locate this zip file and follow on screen prompts.
