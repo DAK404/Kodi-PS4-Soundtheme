@@ -2,7 +2,7 @@
 
 Original Thread can be found here: https://forum.kodi.tv/showthread.php?tid=210625
 
-This theme was originally made by Toyota12303. Subsequently, the files for the sound theme was taken down on the Kodi Forums, along with the theme itself.
+This theme was originally made by Toyota12303. Subsequently, the download links for the theme and sound theme hosted by Toyota12303 (hosted on Google Drive) was invalid.
 
 Later on, another user (SZNX) on the Kodi Forums uploaded a copy of the sound theme, but it didn't seem to work properly.
 
